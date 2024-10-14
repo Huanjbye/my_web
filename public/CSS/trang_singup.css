@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #eee8e800;
+    transition: .2s;
+}
+body{
+    background-color: #ffee00;
+    box-sizing: border-box;
+    font: 14px/18px Arial,Helvetica,sans-serif;
+    color: #333333;
+}
+i{
+    font-size:  18px;
+}
+.singup{
+    width: 100%;
+    height: 571px;
+}
+.logo{
+    width: 250px;
+    height: 60px;
+    display: inline-block;
+    line-height: 30px;
+    vertical-align: middle;
+}
+.logo img{
+    width: 100%;
+    margin-top: -30px;
+}
+header{
+    height: 80px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFDAB9;
+}
+.title{
+    margin: 10px 0 0 20px;
+    font-size: 20px;
+}
+.help{
+    margin: 10px 25px 0 0;
+}
+.help a{
+    font-size: 13px;
+    color: #363635;
+    font-weight: 100;
+}
+.help a:hover{
+    text-decoration: underline;
+}
+.container{
+    background-image: url(https://cdn.tgdd.vn/Files/2016/06/20/844343/huqa_800x450.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.frmsingup{
+    background-color: #ffff;
+    width: 30%;
+    height: 80%;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 480px;
+}
+.dangky{
+    margin: 40px 0;
+}
+.dangky h2{
+    font-size: 25px;
+    font-weight: 200;
+}
+.phone-number, .phone_password{
+    margin: 20px 10px 30px 70px;
+    width: 280px;
+    height: 30px;
+    position: relative;
+}
+.phone-number .icon-user{
+    position: absolute;
+    left: 0;
+    margin-left: -30px;
+    margin-top: 6px;
+}
+.phone_password .icon-password{
+    position: absolute;
+    left: 0;
+    margin-left: -30px;
+    margin-top: -27px;
+}
+.phone-number .phone-number__items{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid;
+    font-size: 14px;
+}
+.phone_password .phone-password__items{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid;
+    font-size: 14px;
+}
+.button-dangky{
+    margin: 0px 10px 10px 20px;
+    width: 280px;
+    height: 40px;
+    background-color: #FFDAB9;
+    border: none;
+    color: #faf6f6;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button-dangky:hover{
+    background-color: #FFA07A;
+    color: #000000;
+}
+.support{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.support .forget-password, .Login-SMS{
+    color: #0026ff;
+    font-size: 13px;
+}
+.support .forget-password:hover, .Login-SMS:hover{
+    text-decoration: underline;
+}
+.title-different{
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#b9b7b7;
+}
+.dash{
+    height: 2px;
+    width: 100px;
+    background-color: #dddada;
+}
+.letter{
+    font-size: 13px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.link-items{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.link-items__facebook, .link-items__google{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    width: 120px;
+    padding: 5px 10px;
+    border: 1px solid #8d8a8a;
+    background-color: #ffffff;
+    margin: 5px 15px 15px 15px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.frm_register div a{
+    color:#504d4d;
+    font-size: 14px;
+    font-weight: 200;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.frm_register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.frm_register div a:hover{
+    text-decoration: underline;    
+}
+.frm_register .link-register a{
+    color:#FFA07A;
+}
